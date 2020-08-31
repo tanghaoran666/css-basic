@@ -1,4 +1,4 @@
-## 需求说明
+﻿## 需求说明
 
 ### 完成下列选择题，请将答案写到每题后面括号里
 
@@ -36,7 +36,7 @@ D <lable>.section > .title {}</lable>
 
 
 
-5.在下列CSS选择器中，优先级从高到低是：(4)
+5.在下列CSS选择器中，优先级从高到低是：(2)
 ```
 <div class="section">
     <h1 id="title" class="title">title</div>
@@ -44,7 +44,7 @@ D <lable>.section > .title {}</lable>
 
 A)  .section .title { color:red; } (20)
 B)  #title { color:green; } (100)
-C)  .title { color:yellow !important; } (10)
+C)  .title { color:yellow !important; } (1000)
 D)  .section > h1 { color:blue; } (11)
 ```
 1)  <lable> B > C > D > A </lable>   
